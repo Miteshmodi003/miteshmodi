@@ -1,0 +1,84 @@
+
+
+body {
+    background-image: url("");
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+}
+
+#coverphoto {
+    width: 100%!important;
+    height: 100%!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.col-xs-4 {
+    width: 20%;
+    height: 20%;
+    border: 3px solid whitesmoke;
+    margin-left: 2%;
+    margin-top: -10%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#myname {
+    margin-top: 0px;
+    color: #525151;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#jobtitle {
+    margin-top: 10px;
+    color: #716E6E;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#summary, .area {
+    color: #716E6E;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+#aboutme {
+    margin-top: 20px;
+    position: relative;
+}
+
+.btn-linkedin {
+    background: rgb(9, 117, 167);
+    color: #fff;
+    
+    border-radius: 15%;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #2187b9;
+    color: #fff;
+  }
+
+  #social-icons {
+      margin-top: -12%;
+  }
+
+  #footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 50px;
+    padding-top: 15px;
+ }
+
+ @media (max-width: 767px) {
+    .navbar-toggleable-sm {
+      clear: both;
+    }
+  }
