@@ -78,8 +78,8 @@
     text-align: center;
     background-color: black;
     height: 50px;
-    padding-top: 15px;
 }
+
 
 @media (max-width: 767px) {
     .navbar-toggleable-sm {
