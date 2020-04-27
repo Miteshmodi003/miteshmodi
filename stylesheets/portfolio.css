@@ -3,4 +3,26 @@
     padding-bottom: 100%;
     background-size: cover;
     background-position: center;
+    border: 5px solid grey;
+    border-radius: 1%;
+}
+
+.projects {
+    text-align: center;
+}
+
+.portfolio-heading {
+    text-align: center;
+}
+
+#portfolio-container {
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 2%;
+}
+
+.square:hover{
+    border: green solid 15px;
+    filter: grayscale(50%);
+    border-radius: 5%;
 }
